@@ -1,0 +1,18 @@
+header{
+	padding: 2rem 0;
+position: relative;
+z-index: 1;
+	 -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+header.sticky{
+	background-color: grey;
+	border-top: 1px solid #604343;
+
+}
+nav{
+.nav-link , a{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+}	

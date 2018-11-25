@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bikeshop</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Ubuntu:300,400" rel="stylesheet"> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+	
+		<div class="container">
+			<div class="row ">
+				<div class="col-2 ">
+					<div class="logo">
+					<a href="#">
+					<img src="img/Bikeshop.png"  alt="responsive-image">
+					</a>
+					</div>
+				</div>
+				<div class="col-md-ms-4 offset-md-2">
+					<nav>
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-light">
+									Bikes
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-light">
+									Components 
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-light">
+									Accesories 
+								</a>
+							</li>
+							
+								
+							
+						</ul>
+						
+						
+					</nav>
+				</div>
+					<div class="col-md-2 offset-2">
+						<a  class="nav-link text-light text-right" href="#"> <img src="img/icon_basket.png" alt="ds"> Basket(0)</a>
+								
+					</div>
+			</div>
+		</div>
+	</header>
+	<section id="main-part">
+		<h1>Lorem ipsum dolor sit amet 
+consectetur adipisicing</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+	</section>
+	</div>
+	
+	
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous">
+	</script>	
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/jquery.scrollie.min_1.js"></script>
+	<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){  
+
+        $('header').addClass("sticky");
+    }  else{
+
+        $('header').removeClass("sticky");
+    }
+});
+</script>  
+	<script src="js/script.js"></script>  
+
+</body>
+</html>
