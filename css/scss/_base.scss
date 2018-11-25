@@ -45,19 +45,46 @@ z-index: 0;
 	h1{
 		font-size: 72px;
 text-align: center;
-padding-top: 18%;
 color: aliceblue;		
 	}	
 	p{
 font-weight: 300;
 font-size: 28px;
 text-align: center;
-color: #fff;	
+color: #c2c1c1;	
 	}	
 }
-
+.main-row{
+	padding-top: 18%;
+}
 
 h1,h1,h3,h4,h5,h6,h7{
 	font-family: $font_family_h !important;
+	text-transform: uppercase;
 }
+section{
+	h3,h4,h5,h6,h7{
+		font-weight: lighter;
+		margin-left: -15px;
+		margin-bottom: 1.4rem;
+	}
+	p{
+		font-weight: 300;
 
+	}
+	.btn{
+		background-color: #3c3c3c;
+		padding: 11px 3px;
+		color: #fff;
+		&:hover{
+			color: grey;
+			 -webkit-transition: all 0.5s ease;
+  			transition: all 0.5s ease;
+		}	
+		span{
+
+    padding: 9px 37px;
+    border: 1px solid #949494;
+	}
+	}	
+}

@@ -9,6 +9,9 @@ header.sticky {
   background-color: grey;
   border-top: 1px solid #604343; }
 
+.fix {
+  position: fixed; }
+
 nav .nav-link, nav a {
   font-size: 18px;
   text-transform: uppercase; }
@@ -48,15 +51,36 @@ a {
   #main-part h1 {
     font-size: 72px;
     text-align: center;
-    padding-top: 18%;
     color: aliceblue; }
   #main-part p {
     font-weight: 300;
     font-size: 28px;
     text-align: center;
-    color: #fff; }
+    color: #c2c1c1; }
+
+.main-row {
+  padding-top: 18%; }
 
 h1, h1, h3, h4, h5, h6, h7 {
-  font-family: "Old Standard TT", sans-serif !important !important; }
+  font-family: "Old Standard TT", sans-serif !important !important;
+  text-transform: uppercase; }
+
+section h3, section h4, section h5, section h6, section h7 {
+  font-weight: lighter;
+  margin-left: -15px;
+  margin-bottom: 1.4rem; }
+section p {
+  font-weight: 300; }
+section .btn {
+  background-color: #3c3c3c;
+  padding: 11px 3px;
+  color: #fff; }
+  section .btn:hover {
+    color: grey;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  section .btn span {
+    padding: 9px 37px;
+    border: 1px solid #949494; }
 
 /*# sourceMappingURL=style.css.map */
